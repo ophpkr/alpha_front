@@ -3,6 +3,7 @@
         <v-card-title>
             <h1 class="brown--text text--darken-3">{{title}}</h1>
         </v-card-title>
+        <v-card-text>
         <v-layout>
             <v-flex md4 offset-md8 mr-3>
         <v-text-field
@@ -38,7 +39,7 @@
         </v-data-table>
         <div class="text-xs-center pt-2">
             <v-pagination color="green darken-3" v-model="pagination.page" :length="pages"></v-pagination>
-        </div>
+        </div></v-card-text>
     </v-card>
 </template>
 

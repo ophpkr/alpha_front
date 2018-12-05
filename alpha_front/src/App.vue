@@ -17,7 +17,6 @@ export default {
     components: {
         HelloWorld,
         ToolbarFarmer,
-        EweTableFarmer,
     },
     data () {
         return {
