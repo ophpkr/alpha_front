@@ -1,4 +1,4 @@
-/dist/
+/dist
 /src/App.vue
 /src/components/*.vue
 /test/unit/coverage/
