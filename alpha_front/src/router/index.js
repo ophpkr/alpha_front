@@ -1,12 +1,13 @@
 import Vue from 'vue';
-import Router from 'vue-router';
+import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
-import HomePageFarmer from '../views/HomePageFarmer';
 import EweTableFarmer from '@/components/EweTableFarmer';
+import HomePageFarmer from '../views/HomePageFarmer';
 
-Vue.use(Router);
 
-const router = new Router({
+Vue.use(VueRouter);
+
+const router = new VueRouter({
     routes: [
         {
             path: '/',
@@ -28,6 +29,7 @@ const router = new Router({
             redirect: '/',
         },
     ],
+    mode: 'history',
 });
 
 export default router;

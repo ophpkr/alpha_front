@@ -47,7 +47,7 @@
         name: "EweTableFarmer",
         data() {
             return {
-                title: 'Mes brebis',
+                title: 'Mes jdghzi',
                 search: '',
                 pagination: {},
                 selected: [],

@@ -2,7 +2,7 @@
     <v-app>
         <ToolbarFarmer></ToolbarFarmer>
         <v-content>
-            <EweTableFarmer></EweTableFarmer>
+            <router-view></router-view>
         </v-content>
     </v-app>
 </template>
