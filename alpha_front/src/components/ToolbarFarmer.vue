@@ -1,11 +1,11 @@
 <template>
-    <v-tabs icons-and-text fixed-tabs slot="extension" light color="white" >
+    <v-tabs icons-and-text fixed-tabs slot="extension" light color="green" >
         <v-tabs-slider color="green"></v-tabs-slider>
         <v-tab to="/" >
-            <h4>Élevage</h4>
+            <v-img src="../logo.png"></v-img>
         </v-tab>
         <v-tab to="/">
-            <h4></h4>
+            <h4>Élevage</h4>
         </v-tab>
         <v-spacer></v-spacer>
         <v-tab to="/" class="d-inline-block" ripple>
