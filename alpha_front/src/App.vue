@@ -2,6 +2,7 @@
     <v-app>
         <ToolbarFarmer></ToolbarFarmer>
         <v-content>
+            <EweTableFarmer></EweTableFarmer>
         </v-content>
     </v-app>
 </template>
@@ -9,12 +10,14 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import ToolbarFarmer from './components/ToolbarFarmer'
+import EweTableFarmer from './components/EweTableFarmer'
 
 export default {
     name: 'App',
     components: {
         HelloWorld,
         ToolbarFarmer,
+        EweTableFarmer,
     },
     data () {
         return {
