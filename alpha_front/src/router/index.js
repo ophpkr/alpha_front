@@ -2,10 +2,11 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import HomePageFarmer from '../views/HomePageFarmer';
+import EweTableFarmer from '@/components/EweTableFarmer';
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
     routes: [
         {
             path: '/',
@@ -17,5 +18,16 @@ export default new Router({
             name: 'HomePageFarmer',
             component: HomePageFarmer,
         },
+        {
+            path: '/ewe',
+            name: 'EweTableFarmer',
+            component: EweTableFarmer,
+        },
+        {
+            path: '*',
+            redirect: '/',
+        },
     ],
 });
+
+export default router;
