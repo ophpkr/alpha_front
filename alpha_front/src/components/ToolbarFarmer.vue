@@ -1,10 +1,10 @@
 <template>
-    <v-tabs fixed-tabs color="white" >
-        <v-tabs-slider color="green"></v-tabs-slider>
+    <v-tabs fixed-tabs color="white">
+        <v-tabs-slider color="green darken-4"></v-tabs-slider>
         <v-tab>
-            <v-icon color="green">home</v-icon>
+            <v-icon color="green darken-4">home</v-icon>
         </v-tab>
-        <v-tab>
+        <v-tab class="d-inline-block" ripple>
             <h4>Élevage</h4>
         </v-tab>
         <v-spacer></v-spacer>
