@@ -1,5 +1,6 @@
 <template>
     <v-container>
+        <ToolbarFarmer></ToolbarFarmer>
         <v-layout
                 text-xs-center
                 wrap
