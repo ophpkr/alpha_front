@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import EweTableFarmer from '@/components/EweTableFarmer';
 import EweCard from '@/components/EweCard/EweCard';
+import EweTableDetailFarmer from '@/components/EweTableDetailFarmer';
 import HomePageFarmer from '../views/HomePageFarmer';
 
 
@@ -29,6 +30,15 @@ const router = new VueRouter({
             path: '/ewes',
             name: 'EweCard',
             component: EweCard,
+        },
+        {
+            path: '/dev',
+            name: 'EweTableDetailFarmer',
+            component: EweTableDetailFarmer,
+        },
+        {
+            path: '*',
+            redirect: '/',
         },
     ],
     mode: 'history',
