@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import EweTableFarmer from '@/components/EweTableFarmer';
+import EweCard from '@/components/EweCard/EweCard';
 import HomePageFarmer from '../views/HomePageFarmer';
 
 
@@ -25,8 +26,9 @@ const router = new VueRouter({
             component: EweTableFarmer,
         },
         {
-            path: '*',
-            redirect: '/',
+            path: '/ewes',
+            name: 'EweCard',
+            component: EweCard,
         },
     ],
     mode: 'history',
