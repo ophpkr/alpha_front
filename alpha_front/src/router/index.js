@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import EweTableFarmer from '@/components/EweTableFarmer';
 import EweCard from '@/components/EweCard/EweCard';
+import FarmerAccount from '@/components/FarmerAccount';
 import HomePageFarmer from '@/views/HomePageFarmer';
 import EwesOverviewAIC from '@/views/EwesOverviewAIC';
 import FarmersOverviewAIC from '@/views/FarmersOverviewAIC';
@@ -39,6 +40,12 @@ const router = new VueRouter({
         },
         {
             path: '/aic',
+            path: '/farmer/account',
+            name: 'FarmerAccount',
+            component: FarmerAccount,
+        },
+        {
+            path: '/dev',
             name: 'EweTableAIC',
             component: EwesOverviewAIC,
         },
