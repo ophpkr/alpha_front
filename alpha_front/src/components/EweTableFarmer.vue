@@ -25,7 +25,7 @@
                 hide-actions
         >
             <template slot="items" slot-scope="props">
-                <td>{{ props.item.numberWork }}</td>
+                <td><a href="/ewes">{{ props.item.numberWork }}</a></td>
                 <td class="text-xs-left">{{ props.item.lastPeriods }}</td>
                 <td class="text-xs-left">{{ props.item.status }}</td>
                 <td v-if="props.item.status==='en chaleur'" class="text-xs-left"><v-icon color="red">fiber_manual_record</v-icon></td>
