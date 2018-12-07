@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld';
 import EweTableFarmer from '@/components/EweTableFarmer';
 import EweCard from '@/components/EweCard/EweCard';
 import EweTableAIC from '@/components/EweTableAIC';
+import FarmerAccount from '@/components/FarmerAccount';
 import HomePageFarmer from '../views/HomePageFarmer';
 
 Vue.use(VueRouter);
@@ -29,6 +30,11 @@ const router = new VueRouter({
             path: '/ewes',
             name: 'EweCard',
             component: EweCard,
+        },
+        {
+            path: '/farmer/account',
+            name: 'FarmerAccount',
+            component: FarmerAccount,
         },
         {
             path: '/dev',
