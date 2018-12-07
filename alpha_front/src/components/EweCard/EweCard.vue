@@ -56,7 +56,7 @@
     </div>
 </template>
 
-<script src="./EweCard.js"></script>
+<script></script>
 <style scoped>
 .eweCardTitle{
     padding:40px;
