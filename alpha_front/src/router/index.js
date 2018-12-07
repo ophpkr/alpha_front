@@ -39,13 +39,12 @@ const router = new VueRouter({
             component: EweCard,
         },
         {
-            path: '/aic',
             path: '/farmer/account',
             name: 'FarmerAccount',
             component: FarmerAccount,
         },
         {
-            path: '/dev',
+            path: '/aic',
             name: 'EweTableAIC',
             component: EwesOverviewAIC,
         },
