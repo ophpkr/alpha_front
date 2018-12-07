@@ -3,9 +3,9 @@ import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import EweTableFarmer from '@/components/EweTableFarmer';
 import EweCard from '@/components/EweCard/EweCard';
-import EweTableDetailFarmer from '@/components/EweTableDetailFarmer';
+import EweTableAIC from '@/components/EweTableAIC';
+// import EweTableDetailFarmer from '@/components/EweTableDetailFarmer';
 import HomePageFarmer from '../views/HomePageFarmer';
-
 
 Vue.use(VueRouter);
 
@@ -33,8 +33,8 @@ const router = new VueRouter({
         },
         {
             path: '/dev',
-            name: 'EweTableDetailFarmer',
-            component: EweTableDetailFarmer,
+            name: 'EweTableAIC',
+            component: EweTableAIC,
         },
         {
             path: '*',
