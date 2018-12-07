@@ -1,5 +1,7 @@
 <template>
     <v-flex>
+        <ToolbarFarmer></ToolbarFarmer>
+    <v-flex>
         <v-flex mt-3 offset-md1>
         <v-layout>
             <h1>Bienvenue monsieur Martin</h1>
@@ -22,6 +24,7 @@
                 </v-flex>
             </v-layout>
         </v-flex>
+    </v-flex>
     </v-flex>
 </template>
 

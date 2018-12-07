@@ -90,8 +90,8 @@
                 search: '',
                 pagination: {},
                 selected: [],
-                stateSelect: ['Toutes', 'En gestation', 'En chaleur', 'Inséminées', 'Inséminables', 'En production'],
-                actionEwe: ['Insémination', 'Mise bas', 'Supprimer', 'En production'],
+                stateSelect: ['Toutes', 'En gestation', 'En chaleur', 'Inséminées', 'Inséminables', 'En traite'],
+                actionEwe: ['Insémination', 'Mise bas', 'Supprimer', 'En traite'],
                 headers: [
                     {
                         text: 'Numéro de travail',

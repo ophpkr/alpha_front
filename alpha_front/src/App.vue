@@ -1,6 +1,5 @@
 <template>
     <v-app>
-        <ToolbarFarmer></ToolbarFarmer>
         <v-content>
             <router-view></router-view>
         </v-content>

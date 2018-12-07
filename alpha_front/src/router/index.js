@@ -3,8 +3,10 @@ import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import EweTableFarmer from '@/components/EweTableFarmer';
 import EweCard from '@/components/EweCard/EweCard';
-import EweTableAIC from '@/components/EweTableAIC';
-import HomePageFarmer from '../views/HomePageFarmer';
+import HomePageFarmer from '@/views/HomePageFarmer';
+import EwesOverviewAIC from '@/views/EwesOverviewAIC';
+import FarmersOverviewAIC from '@/views/FarmersOverviewAIC';
+import EwesManagementFarmer from '@/views/EwesManagementFarmer';
 
 Vue.use(VueRouter);
 
@@ -26,14 +28,24 @@ const router = new VueRouter({
             component: EweTableFarmer,
         },
         {
+            path: '/farmer/ewesManagement',
+            name: 'EweManagementFarmer',
+            component: EwesManagementFarmer,
+        },
+        {
             path: '/ewes',
             name: 'EweCard',
             component: EweCard,
         },
         {
-            path: '/dev',
+            path: '/aic',
             name: 'EweTableAIC',
-            component: EweTableAIC,
+            component: EwesOverviewAIC,
+        },
+        {
+            path: '/aic/farmers',
+            name: 'FarmersOverviewAIC',
+            component: FarmersOverviewAIC,
         },
         {
             path: '*',

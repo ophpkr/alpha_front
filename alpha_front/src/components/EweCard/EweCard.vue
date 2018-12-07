@@ -28,7 +28,7 @@
                 <hr />
                 <v-layout align-start class="overviewEweCardTitle">
                     <v-flex xs4>
-                        <b>Dernier oeustrus enregistré</b>
+                        <b>Dernier œustrus enregistré</b>
                     </v-flex>
                     <v-flex xs4 offset-xs2>
                         <p>Début : 16/05/2018 11h30</p>
