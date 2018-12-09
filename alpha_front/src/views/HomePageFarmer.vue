@@ -30,10 +30,14 @@
 
 <script>
 import EweTableFarmer from '../components/EweTableFarmer';
+import ToolbarFarmer from '../components/ToolbarFarmer';
 
 export default {
     name: 'HomePageFarmer',
-    components: { EweTableFarmer },
+    components: {
+        EweTableFarmer,
+        ToolbarFarmer,
+    },
 };
 </script>
 
